@@ -81,7 +81,7 @@ else if(numGuesses == 0) {
 
 
 
-function.roundComplete(){
+function roundComplete(){
     console.log("Wine Count: " + winCount + " | Loss Count: " + lossCount + " | Guesses Left" + numGuesses);
 
 

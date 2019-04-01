@@ -75,13 +75,20 @@ else if(numGuesses == 0) {
     lossCount++;
     alert("You lost!");
     document.getElementById("lossCounter").innerHTML = lossCount;
+
+    startGame();
 }
 
 
 
 function.roundComplete(){
     console.log("Wine Count: " + winCount + " | Loss Count: " + lossCount + " | Guesses Left" + numGuesses);
+
+
+document.getElementById("winCounter").innerHTML = winCount;
+startGame();
 }
+
 
 //Main Process
 
